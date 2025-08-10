@@ -1,7 +1,7 @@
 (footprint "SODIMM_DDR3_EDGE"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 17.26809 -6.235525 0)
@@ -27,18 +27,6 @@
 			)
 		)
 	)
-	(property "Footprint" "SODIMM_DDR3_EDGE"
-		(at 22.3 2 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "173ebebf-1cf9-44a9-ab71-d35edd26aafa")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 8.76809 -0.235525 0)
 		(unlocked yes)
@@ -48,6 +36,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +49,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -481,7 +471,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "72b7fc22-8057-4240-b27b-fe2fc8723b49")
 	)
@@ -492,12 +482,12 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "28613114-8c94-4688-bdd6-3f94eb13f11d")
 	)
 	(fp_line
-		(start -2.11224 -18.015855)
+		(start -2.11224 -17.5)
 		(end -2.100671 -0.799328)
 		(stroke
 			(width 0.05)
@@ -547,7 +537,7 @@
 		(uuid "1c9dac0e-7bc3-406b-a908-a11862fc6caf")
 	)
 	(fp_line
-		(start 65.48776 -18.015855)
+		(start 65.48776 -17.5)
 		(end 65.499328 -0.800672)
 		(stroke
 			(width 0.05)
@@ -555,17 +545,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d7adf6d6-a96e-40e6-8f97-778f0456364c")
-	)
-	(fp_arc
-		(start -2.11 -22.02)
-		(mid -0.11 -20.02)
-		(end -2.11 -18.02)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "f5c9c94d-e1b0-4ad9-93a2-9665e5b93c98")
 	)
 	(fp_arc
 		(start -1.100672 0.2)
@@ -577,6 +556,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "5fbb3c65-1007-4600-b32c-26a0c70ff03d")
+	)
+	(fp_arc
+		(start -0.090001 -19.52002)
+		(mid -0.66163 -18.099943)
+		(end -2.069979 -17.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f5c9c94d-e1b0-4ad9-93a2-9665e5b93c98")
 	)
 	(fp_arc
 		(start 22.18776 -3.515855)
@@ -612,17 +602,6 @@
 		(uuid "0b1b6870-092f-411a-becb-4186662c610f")
 	)
 	(fp_arc
-		(start 65.48776 -18.015855)
-		(mid 63.487765 -20.01585)
-		(end 65.48776 -22.015845)
-		(stroke
-			(width 0.05)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "3056ad72-0724-4390-9145-288696a7a3fd")
-	)
-	(fp_arc
 		(start 65.499328 -0.800672)
 		(mid 65.206674 -0.093121)
 		(end 64.499328 0.2)
@@ -632,6 +611,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "0a9d1dea-5e0c-43ea-9fed-585735d14720")
+	)
+	(fp_arc
+		(start 65.5 -17.5)
+		(mid 64.085786 -18.085786)
+		(end 63.5 -19.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3056ad72-0724-4390-9145-288696a7a3fd")
 	)
 	(fp_line
 		(start -2.65 -27.405)
@@ -2319,6 +2309,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2351,6 +2345,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -2385,6 +2383,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2417,6 +2419,10 @@
 			(pads not_allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
 		)
 		(fill
 			(thermal_gap 0.5)
@@ -2451,6 +2457,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2484,6 +2494,10 @@
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
 		(fill
 			(thermal_gap 0.5)
 			(thermal_bridge_width 0.5)
@@ -2494,4 +2508,5 @@
 			)
 		)
 	)
+	(embedded_fonts no)
 )
